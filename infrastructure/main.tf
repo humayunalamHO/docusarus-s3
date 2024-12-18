@@ -33,7 +33,7 @@ resource "aws_s3_bucket_website_configuration" "s3_docusaurus_website" {
   bucket = aws_s3_bucket.s3_docusaurus.id
 
   index_document {
-    suffix = "index.html"
+    suffix = "indexx.html"
   }
 
   error_document {
